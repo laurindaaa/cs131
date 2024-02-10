@@ -82,3 +82,35 @@
    82  mkdir Worksheet1
    83  cd Worksheet1/
    84  history > cmds.log
+   85  ls
+   86  git init
+   87  git config --global init.defaultBranch master
+   88  git branch
+   89  git status
+   90  git commit -m "first commit"
+   91  git status
+   92  git commit -m "first commit"
+   93  git add .
+   94  git status
+   95  git commit -m "first commit"
+   96  git remote add origin https://github.com/laurindaaa/cs131.git
+   97  git push -u origin main
+   98  git branch -M main
+   99  git remote add origin https://github.com/laurindaaa/cs131.git
+  100  git push -u origin main
+  101  git config --global user.emial"yelinwu123@gmail.com"
+  102  git config --global user.name "laurindaaa"
+  103  git push -u origin main
+  104  git config -l
+  105  git push -u origin main
+  106  git status
+  107  git push -u origin main
+  108  cd
+  109  ls
+  110  cd Worksheet1/
+  111  ls
+  112  rm -r cmds.log 
+  113  mkdir Worksheet1
+  114  ls
+  115  cd Worksheet1/
+  116  history > cmds.log

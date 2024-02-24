@@ -1,0 +1,16 @@
+  271  cd sampleProject
+  272  ls
+  273  git clone https://github.com/laurindaaa/cs131.git
+  274  cd cs131
+  275  curl -O https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  276  ls
+  277  ls
+  278  cat Global\ YouTube\ Statistics.csv
+  279  ls
+  280  cat Global%20YouTube%20Statistics.csv
+  281  grep "United States" "Global YouTube Statistics.csv"
+  282  grep "United States" "Global%20YouTube%20Statistics.csv"
+  283  grep ",Music," "Global%20YouTube%20Statistics.csv"
+  284  grep ",Music," "Global%20YouTube%20Statistics.csv" | wc
+  285  grep ",Music," "Global%20YouTube%20Statistics.csv" | wc >> counts.txt
+  286  nano counts.txt

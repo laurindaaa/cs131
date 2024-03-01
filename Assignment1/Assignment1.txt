@@ -23,6 +23,14 @@ Assignment1.txt
 [yelinsp24@sjsu Assignment1]$ echo $SHELL
 /bin/bash
 
+[yelinsp24@sjsu Assignment1]$ echo $SHELL
+/bin/bash
+[yelinsp24@sjsu Assignment1]$ current_shell=$SHELL
+[yelinsp24@sjsu Assignment1]$ export current_shell
+[yelinsp24@sjsu Assignment1]$ echo $current_shell
+/bin/bash
+[yelinsp24@sjsu Assignment1]$ 
+
 2) Echo your home directory path and paste the output of the command.  Which commands did you use?
 
 [yelinsp24@sjsu Assignment1]$ echo $HOME

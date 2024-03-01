@@ -216,3 +216,12 @@
   216  cd ..
   217  ls -l /etc/os-release 
   218  history > cmds.log
+
+
+[yelinsp24@sjsu Assignment1]$ echo $SHELL
+/bin/bash
+[yelinsp24@sjsu Assignment1]$ current_shell=$SHELL
+[yelinsp24@sjsu Assignment1]$ export current_shell
+[yelinsp24@sjsu Assignment1]$ echo $current_shell
+/bin/bash
+[yelinsp24@sjsu Assignment1]$ 
